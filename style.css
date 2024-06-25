@@ -4,8 +4,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  /* background-color: black; */
-  background-image: url(./thanh.jpg);
+  background-color: gray;
+  background-image: url(./anh/thanh.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
@@ -51,11 +51,10 @@ h2 {
   position: absolute;
   display: flex;
   align-self: flex-end;
-  background-color: #4158d0;
   font-size: 2.5rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  background: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+  color: rgb(16, 156, 46);
 }
-strong{
-    color: pink;
+qr{
+  position: absolute;
 }
